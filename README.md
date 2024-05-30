@@ -45,7 +45,7 @@
 </br> </br> </br>
 
 ![Окно добавления нового картриджа](https://github.com/Fealerok/CartridgesManagementSystem/blob/main/ScreensForRepository/3_AddingNewCartridge(Admin).png)
-Окно добавления нового картриджа.
+<br/>Окно добавления нового картриджа.
 </br> </br> </br>
 
 ![Окно редактирования картриджа](https://github.com/Fealerok/CartridgesManagementSystem/blob/main/ScreensForRepository/4_EditingCartridge(Admin).png)
