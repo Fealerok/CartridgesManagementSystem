@@ -36,4 +36,22 @@
 4. **Roles** - таблица, содержащая в себе все роли для пользователей.
 
 # Скриншоты приложения:
+![Окно входа в приложение](https://github.com/Fealerok/CartridgesManagementSystem/blob/main/ScreensForRepository/1_LoginPage.png)
+Окно входа в приложение.
+</br> </br> </br>
 
+![Список картриджей](https://github.com/Fealerok/CartridgesManagementSystem/blob/main/ScreensForRepository/2_CartridgesList(Admin).png)
+Список картриджей.
+</br> </br> </br>
+
+![Окно добавления нового картриджа](https://github.com/Fealerok/CartridgesManagementSystem/blob/main/ScreensForRepository/3_AddingNewCartridge(Admin).png)
+Окно добавления нового картриджа.
+</br> </br> </br>
+
+![Окно редактирования картриджа](https://github.com/Fealerok/CartridgesManagementSystem/blob/main/ScreensForRepository/4_EditingCartridge(Admin).png)
+Окно редактирования картриджа.
+</br> </br> </br>
+
+![Работа поиска в приложении](https://github.com/Fealerok/CartridgesManagementSystem/blob/main/ScreensForRepository/5_Search(Admin).png)
+Работа поиска в приложении.
+</br> </br> </br>
