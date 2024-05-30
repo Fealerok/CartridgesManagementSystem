@@ -1,0 +1,48 @@
+﻿<Page x:Class="CartridgeManagementSystem.Pages.UserPages.AdministratorPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:CartridgeManagementSystem.Pages.UserPages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="AdministratorPage" MinWidth="1900" MinHeight="1000" Background="White">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition Width="300"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+       
+
+        <DataGrid AutoGenerateColumns="False" IsReadOnly="True" SelectionMode="Single" Name="cartridgesList" FontSize="20" Grid.Row="1">
+            <DataGrid.Columns>
+                <DataGridTextColumn Width="50" Header="Id" Binding="{Binding Path=Id}"></DataGridTextColumn>
+                <DataGridTextColumn Width="*" Header="Type" Binding="{Binding Path=Type}"></DataGridTextColumn>
+                <DataGridTextColumn Width="*" Header="Model" Binding="{Binding Path=Model}"></DataGridTextColumn>
+                <DataGridTextColumn Width="*" Header="Serial number" Binding="{Binding Path=SerialNumber}"></DataGridTextColumn>
+                <DataGridTextColumn Width="*" Header="Status" Binding="{Binding Path=Status}"></DataGridTextColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <TextBox VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="30" Height="50" TextChanged="TextBox_TextChanged" Name="userSearch"></TextBox>
+
+        <Grid Grid.Row="1" Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <Button Height="150" Content="Список пользователей" FontSize="25" Click="ShowListOfUsers"></Button>
+            <Button Height="150" Content="Добавить картридж" FontSize="25" Grid.Row="1" Click="AddNewCartridge"></Button>
+            <Button Height="150" Content="Удалить картридж" FontSize="25" Grid.Row="2" Click="DeleteCartridge"></Button>
+            <Button Height="150" Content="Изменить картридж" FontSize="25" Grid.Row="3" Click="EditCartridge"></Button>
+        </Grid>
+    </Grid>
+</Page>
