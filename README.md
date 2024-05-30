@@ -49,9 +49,17 @@
 </br> </br> </br>
 
 ![Окно редактирования картриджа](https://github.com/Fealerok/CartridgesManagementSystem/blob/main/ScreensForRepository/4_EditingCartridge(Admin).png)
-Окно редактирования картриджа.
+<br/>Окно редактирования картриджа.
 </br> </br> </br>
 
 ![Работа поиска в приложении](https://github.com/Fealerok/CartridgesManagementSystem/blob/main/ScreensForRepository/5_Search(Admin).png)
 Работа поиска в приложении.
+</br> </br> </br>
+
+![Список пользователей](https://github.com/Fealerok/CartridgesManagementSystem/blob/main/ScreensForRepository/6_UsersList(Admin).png)
+Список пользователей.
+</br> </br> </br>
+
+![Добавление нового пользователя](https://github.com/Fealerok/CartridgesManagementSystem/blob/main/ScreensForRepository/7_AddingNewUser(Admin).png)
+Добавление нового пользователя.
 </br> </br> </br>
